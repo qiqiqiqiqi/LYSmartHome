@@ -1,6 +1,7 @@
 package com.bl.lysmarthome.ui.activity;
 
 import android.content.Context;
+
 import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -17,6 +18,7 @@ import com.jb.jb_library.helper.TitleBarHelper;
 
 import java.util.ArrayList;
 import java.util.List;
+
 
 /**
  * Created by Administrator on 2018/12/1 0001.
