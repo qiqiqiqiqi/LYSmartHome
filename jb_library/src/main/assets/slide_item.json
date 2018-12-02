@@ -1,0 +1,94 @@
+{
+    "firstName": [
+        {
+            "firstArray": [
+                {
+                    "secondDes": "新增事故事件"
+                },
+                {
+                    "secondDes": "查询事故事件"
+                }
+            ],
+            "firstDes": "事故事件"
+        },
+        {
+            "firstArray": [
+                {
+                    "secondDes": "新增专项治理"
+                },
+                {
+                    "secondDes": "查询专项治理"
+                }
+            ],
+            "firstDes": "专项治理"
+        },
+        {
+            "firstArray": [
+                {
+                    "secondArray": [
+                        {
+                            "thirdDes": "填写观察卡"
+                        },
+                        {
+                            "thirdDes": "查询统计"
+                        }
+                    ],
+                    "secondDes": "行为安全观察"
+                },
+                {
+                    "secondArray": [
+                        {
+                            "thirdDes": "上报新隐患"
+                        },
+                        {
+                            "thirdDes": "查询隐患报告"
+                        }
+                    ],
+                    "secondDes": "隐患管理"
+                }
+            ],
+            "firstDes": "现场安全"
+        },
+        {
+            "firstArray": [
+                {
+                    "secondDes": "作业安全分析(JSA)"
+                },
+                {
+                    "secondDes": "作业风险分析(TRA)"
+                },
+                {
+                    "secondDes": "项目风险评估(PRA)"
+                }
+            ],
+            "firstDes": "风险管理"
+        },
+        {
+            "firstArray": [
+                {
+                    "secondArray": [
+                        {
+                            "thirdDes": "OSHA数据"
+                        },
+                        {
+                            "thirdDes": "统计图表"
+                        }
+                    ],
+                    "secondDes": "OSHA数据"
+                }
+            ],
+            "firstDes": "绩效监控"
+        },
+        {
+            "firstArray": [
+                {
+                    "secondDes": "新增管理评审"
+                },
+                {
+                    "secondDes": "查询管理评审"
+                }
+            ],
+            "firstDes": "管理评审"
+        }
+    ]
+}

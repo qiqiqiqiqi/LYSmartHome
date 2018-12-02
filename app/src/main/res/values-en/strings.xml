@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MultiLanguages</string>
+
+    <string name="language_cn">简体</string>
+    <string name="language_en">English</string>
+    <string name="language_auto">自动</string>
+    <string name="language_traditional">繁體</string>
+
+    <string name="register">Register</string>
+    <string name="login_out">Logout</string>
+    <string name="binging">Binding</string>
+    <string name="login">Login</string>
+    <string name="about">About</string>
+    <string name="scene">Scene</string>
+    <string name="tv">Tv</string>
+    <string name="lighting">Lighting</string>
+    <string name="air_conditioning">Air Conditioning</string>
+    <string name="intercom">Video Intercom</string>
+    <string name="door_lock">Lock Control</string>
+    <string name="cctv">CCTV</string>
+    <string name="curtain">Curtain</string>
+    <string name="clubhouse">Clubhouse</string>
+    <string name="alert">Alert</string>
+</resources>

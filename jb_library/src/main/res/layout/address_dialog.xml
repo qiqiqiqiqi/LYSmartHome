@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/address_dialog_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp_10"
+        android:text="请选择地址"
+        android:background="@color/color_e0e0e0"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/address_dialog_rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       >
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ProgressWheel">
+        <attr name="matProg_progressIndeterminate" format="boolean"/>
+        <attr name="matProg_barColor" format="color"/>
+        <attr name="matProg_rimColor" format="color"/>
+        <attr name="matProg_rimWidth" format="dimension"/>
+        <attr name="matProg_spinSpeed" format="float"/>
+        <attr name="matProg_barSpinCycleTime" format="integer"/>
+        <attr name="matProg_circleRadius" format="dimension"/>
+        <attr name="matProg_fillRadius" format="boolean"/>
+        <attr name="matProg_barWidth" format="dimension"/>
+        <attr name="matProg_linearProgress" format="boolean"/>
+    </declare-styleable>
+
+    <!--自定义通用的条目属性-->
+    <declare-styleable name="CommonItemView">
+        <attr name="left_iv" format="reference"></attr>
+        <attr name="left_tv" format="reference"></attr>
+        <attr name="right_iv" format="reference"></attr>
+        <attr name="right_tv" format="reference"></attr>
+        <attr name="left_tv_size" format="reference"></attr>
+        <attr name="left_tv_color" format="reference"></attr>
+        <attr name="right_tv_size" format="reference"></attr>
+        <attr name="right_tv_color" format="reference"></attr>
+        <attr name="bg_color" format="reference"></attr>
+    </declare-styleable>
+
+    <!--轮播图属性设置-->
+    <declare-styleable name="BannerView">
+        <attr name="isLoopSrcoll" format="boolean"></attr>
+        <attr name="delay_time" format="string"></attr>
+        <attr name="isCycle" format="boolean"></attr>
+        <attr name="showNum" format="boolean"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="DiffStateView">
+        <attr name="loading_view" format="reference"></attr>
+        <attr name="error_view" format="reference"></attr>
+        <attr name="empty_view" format="reference"></attr>
+        <attr name="no_network_view" format="reference"></attr>
+        <attr name="time_out_view" format="reference"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="CustomBannerView">
+        <attr name="open_mz_mode" format="boolean"/>
+        <attr name="canLoop" format="boolean"/>
+        <attr name="loopAutoPlay" format="boolean"/>
+        <attr name="indicatorPaddingLeft" format="dimension"/>
+        <attr name="indicatorPaddingRight" format="dimension"/>
+        <attr name="indicatorPaddingTop" format="dimension"/>
+        <attr name="indicatorPaddingBottom" format="dimension"/>
+        <attr name="indicatorAlign">
+            <enum name="left" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+        <attr name="middle_page_cover" format="boolean"/>
+    </declare-styleable>
+</resources>

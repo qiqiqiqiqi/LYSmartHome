@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="vertical"
+              android:background="@android:color/white"
+              android:id="@+id/refresh_empty_view_ll"
+
+    >
+
+    <ImageView
+        android:id="@+id/refresh_empty_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/ic_empty_page"
+        />
+
+    <TextView
+        android:id="@+id/refresh_empty_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="暂无数据"
+        android:layout_marginTop="@dimen/dp_8"
+        android:textSize="@dimen/sp_16"
+        android:textColor="@color/color_6c6c6c"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_8"
+        android:text="轻触屏幕重试"
+        android:textColor="@color/color_c0c0c0"
+        android:textSize="@dimen/sp_13"
+        android:visibility="gone"
+        />
+
+</LinearLayout>

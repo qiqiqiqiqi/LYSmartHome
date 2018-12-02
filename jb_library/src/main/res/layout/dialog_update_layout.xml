@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/update_bg_iv"
+        android:background="@drawable/shape_common_dialog"
+        >
+        <RelativeLayout
+            android:id="@+id/new_version_des_rl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="90dp"
+            >
+
+            <TextView
+                android:id="@+id/new_version_des_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="发现新版本"
+                android:textSize="@dimen/sp_18"
+                android:textColor="@color/color_008F42"
+                />
+
+            <TextView
+                android:id="@+id/version_code_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:layout_toRightOf="@+id/new_version_des_tv"
+                android:text="2.1.1"
+                android:textSize="@dimen/sp_10"
+                />
+        </RelativeLayout>
+
+        <ScrollView
+            android:id="@+id/funnction_remarks_sv"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_120"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_below="@+id/new_version_des_rl"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10"
+            android:scrollbars="none"
+            >
+            <TextView
+                android:id="@+id/funnction_remarks_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.【新增】 看板及消息功能\r\n\r\n2.【修改】 应用增加常用功能的设置\r\n\r\n3.【优化】 bug的修改"
+                android:textColor="@color/color_111111"
+                android:textSize="@dimen/sp_12"
+                />
+
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/update_tv"
+            android:layout_width="@dimen/dp_85"
+            android:layout_height="@dimen/dp_30"
+            android:text="立即更新"
+            android:background="@drawable/selector_common_btn_two"
+            android:textColor="@color/common_btn_text"
+            android:layout_below="@+id/funnction_remarks_sv"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/dp_5"
+            android:layout_marginBottom="@dimen/dp_15"
+            />
+        <TextView
+            android:id="@+id/progress_rate_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_30"
+            android:layout_below="@+id/funnction_remarks_sv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/dp_5"
+            android:layout_marginBottom="@dimen/dp_15"
+            android:textSize="@dimen/sp_18"
+            android:textColor="@color/color_111111"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:id="@+id/cancle_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_30"
+            android:text="下次再说"
+            android:layout_below="@+id/funnction_remarks_sv"
+            android:layout_toRightOf="@+id/update_tv"
+            android:layout_marginTop="@dimen/dp_5"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="@dimen/dp_10"
+            />
+        <ProgressBar
+            android:id="@+id/update_pb"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            style="@style/progress_bar_style"
+            android:layout_below="@+id/funnction_remarks_sv"
+            android:max="100"
+            android:layout_marginTop="@dimen/dp_50"
+            android:visibility="gone"
+            />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/update_bg_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@mipmap/update_bg"
+        android:layout_marginBottom="-95dp"
+        />
+
+</RelativeLayout>

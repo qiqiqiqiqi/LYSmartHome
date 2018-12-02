@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">多語言</string>
+
+    <string name="register">注册</string>
+    <string name="login_out">退出登录</string>
+    <string name="binging">绑定</string>
+    <string name="login">登录</string>
+    <string name="about">关于</string>
+    <string name="scene">情景模式</string>
+    <string name="tv">电视</string>
+    <string name="lighting">灯</string>
+    <string name="air_conditioning">空调</string>
+    <string name="intercom">对讲机</string>
+    <string name="door_lock">门锁</string>
+    <string name="cctv">CCTV</string>
+    <string name="curtain">窗帘</string>
+    <string name="clubhouse">卧室</string>
+    <string name="alert">安防</string>
+</resources>

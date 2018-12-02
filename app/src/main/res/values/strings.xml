@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">LYSmartHome</string>
+    <string name="setting_language_english">English</string>
+    <string name="setting_simplified_chinese">简体中文</string>
+    <string name="setting_traditional_chinese">繁體中文</string>
+
+
+    <string name="language_cn">简体</string>
+    <string name="language_en">English</string>
+    <string name="language_auto">自动</string>
+    <string name="language_traditional">繁體</string>
+
+    <string name="register">注册</string>
+    <string name="login_out">退出登录</string>
+    <string name="binging">绑定</string>
+    <string name="login">登录</string>
+    <string name="about">关于</string>
+    <string name="scene">情景模式</string>
+    <string name="tv">电视</string>
+    <string name="lighting">灯</string>
+    <string name="air_conditioning">空调</string>
+    <string name="intercom">对讲机</string>
+    <string name="door_lock">门锁</string>
+    <string name="cctv">CCTV</string>
+    <string name="curtain">窗帘</string>
+    <string name="clubhouse">卧室</string>
+    <string name="alert">安防</string>
+    <string name="btn_return">RETURN</string>
+    <string name="voice_off">OFF</string>
+    <string name="toggle_on">ON</string>
+    <string name="set_up">SETUP</string>
+    <string name="tv_vol">VOL</string>
+    <string name="tv_ch">CH</string>
+    <string name="air_energy">Energy</string>
+    <string name="air_comfort">Comfort</string>
+    <string name="air_sleep">Sleep</string>
+    <string name="air_swing">Swing</string>
+    <string name="air_wind">Wind</string>
+    <string name="air_off">OFF</string>
+    <string name="air_dry">Dry</string>
+    <string name="air_cool">Cool</string>
+    <string name="air_heat">Heat</string>
+    <string name="air_timer">Timer</string>
+    <string name="curtain_colse">Closed</string>
+    <string name="curtain_stop">Stop</string>
+    <string name="curtain_open">Open</string>
+    <string name="light_head_lamps">Headlamps</string>
+    <string name="light_lamp">Lamp</string>
+
+
+
+</resources>

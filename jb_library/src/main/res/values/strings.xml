@@ -1,0 +1,88 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">""</string>
+
+    <string name="text_network_require">An internet connection is required.please check your network settings.</string>
+    <string name="text_network_error">Network error.Please try it again.</string>
+
+    <string name="text_network_require_ch">请检查您的网络设置</string>
+    <string name="text_network_error_ch">网络错误,请再次连接网络</string>
+    <string name="text_cancel">取消</string>
+    <string name="text_ensure">确定</string>
+
+    <string name="text_su">日</string>
+    <string name="text_m">一</string>
+    <string name="text_th">二</string>
+    <string name="text_w">三</string>
+    <string name="text_t">四</string>
+    <string name="text_f">五</string>
+    <string name="text_s">六</string>
+
+    <string name="close">关闭</string>
+    <string name="open">打开</string>
+
+    <!-- app升级-->
+    <string name="ronghui_update">正在更新</string>
+    <string name="ronghui_update_notification_tips">正在更新</string>
+    <string name="ronghui_install_success">安装成功</string>
+    <string name="ronghui_notification_title">软件更新</string>
+    <string name="ronghui_net_error_tips">网络连接异常</string>
+    <string name="ronghui_update_downloading">正在下载...</string>
+    <string name="ronghui_update_fail">更新失败</string>
+    <string name="ronghui_update_title_pause">暂停下载</string>
+    <string name="ronghui_update_notification_pause">暂停</string>
+    <string name="ronghui_update_notification_goon">继续</string>
+    <string name="ronghui_update_notification_cancel">取消</string>
+    <string name="download_mobile_data_tip">多任务下载四个文件，最好用WIFI测试喔。</string>
+    <string name="download_start">开始下载</string>
+    <string name="download_delete">删除文件</string>
+    <string name="delete_succeed">删除成功</string>
+    <!-- Download status -->
+    <string name="download_progress">已下载：%1$d</string>
+    <string name="download_status_pause">暂停</string>
+    <string name="download_status_be_pause">下载被暂停</string>
+    <string name="download_status_re_download">重新下载</string>
+    <string name="download_status_again_download">再次尝试</string>
+    <string name="download_status_resume">继续下载</string>
+    <string name="download_status_finish">下载完成！</string>
+    <!-- Download error -->
+    <string name="download_error">下载出错了：%1$s</string>
+    <string name="download_error_server">服务器数据错误！</string>
+    <string name="download_error_network">网络不可用，请检查网络！</string>
+    <string name="download_error_storage">存储卡错误，请检查存储卡！</string>
+    <string name="download_error_space">存储卡空间不足！</string>
+    <string name="download_error_timeout">下载超时！</string>
+    <string name="download_error_un_know_host">找不到服务器。</string>
+    <string name="download_error_url">URL地址错误。</string>
+    <string name="download_error_argument">下载参数错误。</string>
+    <string name="download_error_un">未知错误。</string>
+    <string name="ronghui_update_cancel">取消更新</string>
+    <string name="ronghui_update_pause">暂停</string>
+    <string name="TIMEOUT">超时</string>
+    <string name="network_canot_work">网络异常</string>
+    <string name="about_update_title">检查更新</string>
+    <string name="about_update_has">有新版本！</string>
+    <string name="about_update_fail">检查更新失败</string>
+    <string name="about_update_no">已是最新版本</string>
+    <string name="about_update_tip">升级提示</string>
+    <string name="about_update_force_content">当前版本已停止使用，请更新到最新版本！</string>
+    <string name="about_update_not_now">以后再说</string>
+    <string name="about_update_now">马上升级</string>
+
+    <string name="head">这里是HeadView</string>
+    <string name="pull_to_refresh">下拉刷新</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="refreshing">正在刷新...</string>
+    <string name="refresh_succeed">刷新成功</string>
+    <string name="refresh_fail">刷新失败</string>
+    <string name="pullup_to_load">上拉加载更多</string>
+    <string name="release_to_load">释放立即加载</string>
+    <string name="loading">玩命加载中...</string>
+    <string name="load_succeed">加载成功</string>
+    <string name="load_fail">加载失败</string>
+
+    <!-- 选择框的显示信息 -->
+    <string name="pictrue">图库</string>
+    <string name="camera">拍照</string>
+    <string name="cancel">取消</string>
+    <string name="file">选择文件</string>
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_common_diaog"
+    >
+
+    <TextView
+        android:id="@+id/rename_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_5"
+        android:layout_marginRight="@dimen/dp_5"
+        android:paddingTop="@dimen/dp_5"
+        android:text="重命名"
+        />
+
+    <EditText
+        android:id="@+id/rename_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rename_tv"
+        android:layout_marginLeft="@dimen/dp_5"
+        android:layout_marginRight="@dimen/dp_5"
+        android:layout_marginTop="@dimen/dp_2"
+        android:background="@drawable/shape_reaname"
+        android:padding="@dimen/dp_8"
+        android:textSize="@dimen/sp_16"
+        />
+
+    <View
+        android:id="@+id/split_view"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/rename_et"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_weight="0"
+        android:background="@color/color_888888"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/split_view"
+        android:layout_weight="0"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/cancle_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_prompt_dialog_left"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="@color/selector_text_btn_left"
+            android:textSize="17sp"
+            />
+
+        <TextView
+            android:id="@+id/dialog_normal_line"
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="@color/color_888888"/>
+
+        <TextView
+            android:id="@+id/ensure_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_prompt_dialog_right"
+            android:gravity="center"
+            android:text="确定"
+            android:textColor="@color/selector_text_btn_right"
+            android:textSize="17sp"
+            />
+
+    </LinearLayout>
+</RelativeLayout>

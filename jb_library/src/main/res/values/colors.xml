@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="color_f0f0f0">#f0f0f0</color>
+    <color name="color_fb5e61">#fb5e61</color>
+    <color name="color_111111">#111111</color>
+    <color name="color_f8f8f8">#f8f8f8</color>
+    <color name="color_888888">#888888</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_44888888">#44888888</color>
+    <color name="color_f1f1f1">#f1f1f1</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_ffce45">#ffce45</color>
+    <color name="color_ff0000">#ff0000</color>
+    <color name="color_aaaaaa">#aaaaaa</color>
+    <color name="color_f1f5f6">#f1f5f6</color>
+    <color name="color_303231">#303231</color>
+    <color name="color_dddddd">#dddddd</color>
+    <color name="color_363636">#363636</color> <!--黑-->
+    <color name="color_e0e0e0">#e0e0e0</color>
+    <color name="color_eeeeee">#eeeeee</color>
+    <color name="success_stroke_color">#15aa5a</color>
+    <color name="error_stroke_color">#F27474</color>
+    <color name="color_a50000">#a50000</color>
+    <color name="color_efefef">#efefef</color>
+    <color name="color_dedede">#dedede</color>
+    <color name="color_464646">#464646</color>
+    <color name="color_6c6c6c">#6c6c6c</color>
+    <color name="color_c0c0c0">#c0c0c0</color>
+    <color name="color_gray">#22111111</color>
+    <color name="color_64b2ff">#64b2ff</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_008F42">#446EDE</color>
+    <color name="color_dfdfdf">#dfdfdf</color>
+    <color name="color_0a4392">#0a4392</color>
+    <color name="color_A37A43">#A37A43</color>
+</resources>
